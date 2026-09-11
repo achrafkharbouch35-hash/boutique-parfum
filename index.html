@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ÉLYSÉE — Parfums & Fragrances</title>
+
+    <meta
+        name="description"
+        content="ÉLYSÉE — Parfums femme, homme et unisexes. Découvrez votre signature olfactive."
+    >
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     PRELOADER
+===================================================== -->
+
+<div class="preloader" id="preloader">
+    <div class="loader-logo">ÉLYSÉE</div>
+    <div class="loader-line"></div>
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header" id="header">
+
+    <div class="container nav-container">
+
+        <a href="#accueil" class="logo">
+            ÉLYSÉE
+            <span>PARFUMS</span>
+        </a>
+
+        <nav class="desktop-nav">
+
+            <a href="#accueil">Accueil</a>
+
+            <a href="#boutique">Boutique</a>
+
+            <a href="#categories">Catégories</a>
+
+            <a href="#apropos">À propos</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button class="icon-btn" id="openSearch" aria-label="Rechercher">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon-btn cart-btn" id="openCart" aria-label="Panier">
+
+                <i class="fa-solid fa-bag-shopping"></i>
+
+                <span class="cart-count" id="cartCount">
+                    0
+                </span>
+
+            </button>
+
+            <button class="menu-btn" id="menuBtn">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <button class="close-mobile" id="closeMobile">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="mobile-logo">
+        ÉLYSÉE
+        <span>PARFUMS</span>
+    </div>
+
+    <nav>
+
+        <a href="#accueil">Accueil</a>
+
+        <a href="#boutique">Boutique</a>
+
+        <a href="#categories">Catégories</a>
+
+        <a href="#apropos">À propos</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</div>
+
+
+<!-- =====================================================
+     SEARCH OVERLAY
+===================================================== -->
+
+<div class="search-overlay" id="searchOverlay">
+
+    <button class="search-close" id="closeSearch">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="search-content">
+
+        <span>RECHERCHER</span>
+
+        <h2>Quelle fragrance recherchez-vous ?</h2>
+
+        <div class="big-search">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Parfum femme, homme, vanille..."
+            >
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<main>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="accueil">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+
+            <span class="eyebrow">
+                COLLECTION PARFUMS 2026
+            </span>
+
+            <h1>
+                Votre parfum.
+                <br>
+                Votre signature.
+            </h1>
+
+            <p>
+                Découvrez une sélection de fragrances élégantes,
+                modernes et intemporelles pensées pour révéler
+                votre personnalité.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#boutique" class="btn btn-dark">
+                    Découvrir la boutique
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#categories" class="btn btn-outline">
+                    Explorer les catégories
+                </a>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>+500</strong>
+                    <span>Clients</span>
+                </div>
+
+                <div>
+                    <strong>+40</strong>
+                    <span>Parfums</span>
+                </div>
+
+                <div>
+                    <strong>4.9/5</strong>
+                    <span>Avis clients</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image reveal">
+
+            <img
+                src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1200&q=90"
+                alt="Collection de parfums"
+            >
+
+            <div class="hero-floating">
+
+                <span>ÉLYSÉE</span>
+
+                <strong>
+                    L'élégance
+                    <br>
+                    en fragrance.
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURE STRIP
+===================================================== -->
+
+<section class="features-strip">
+
+    <div class="container feature-grid">
+
+        <div class="feature-item">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-sparkles"></i>
+            </div>
+
+            <div>
+                <strong>Fragrances sélectionnées</strong>
+                <span>Des senteurs choisies avec soin</span>
+            </div>
+
+        </div>
+
+
+        <div class="feature-item">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+
+            <div>
+                <strong>Livraison au Maroc</strong>
+                <span>Expédition partout au Maroc</span>
+            </div>
+
+        </div>
+
+
+        <div class="feature-item">
+
+            <div class="feature-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+            <div>
+                <strong>Commande simple</strong>
+                <span>Directement sur WhatsApp</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<div class="marquee">
+
+    <div class="marquee-track">
+
+        <span>PARFUM</span>
+        <b>✦</b>
+
+        <span>ÉLÉGANCE</span>
+        <b>✦</b>
+
+        <span>SIGNATURE</span>
+        <b>✦</b>
+
+        <span>SENSUALITÉ</span>
+        <b>✦</b>
+
+        <span>ÉMOTION</span>
+        <b>✦</b>
+
+        <span>PARFUM</span>
+        <b>✦</b>
+
+        <span>ÉLÉGANCE</span>
+        <b>✦</b>
+
+        <span>SIGNATURE</span>
+        <b>✦</b>
+
+        <span>SENSUALITÉ</span>
+        <b>✦</b>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     CATEGORIES
+===================================================== -->
+
+<section class="categories section" id="categories">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                NOS COLLECTIONS
+            </span>
+
+            <h2>
+                Trouvez votre
+                <br>
+                signature olfactive.
+            </h2>
+
+            <p>
+                Des fragrances pensées pour accompagner
+                chaque personnalité et chaque moment.
+            </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+
+            <article
+                class="category-card category-women reveal"
+                data-category="Femme"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1000&q=85"
+                    alt="Parfums femme"
+                >
+
+                <div class="category-overlay">
+
+                    <span>01</span>
+
+                    <h3>Parfums Femme</h3>
+
+                    <p>
+                        Floral, doux & sophistiqué
+                    </p>
+
+                    <button class="category-link">
+                        Découvrir
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="category-card category-men reveal"
+                data-category="Homme"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=1000&q=85"
+                    alt="Parfums homme"
+                >
+
+                <div class="category-overlay">
+
+                    <span>02</span>
+
+                    <h3>Parfums Homme</h3>
+
+                    <p>
+                        Intense, boisé & charismatique
+                    </p>
+
+                    <button class="category-link">
+                        Découvrir
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="category-card category-unisex reveal"
+                data-category="Unisexe"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85"
+                    alt="Parfums unisexes"
+                >
+
+                <div class="category-overlay">
+
+                    <span>03</span>
+
+                    <h3>Unisexes</h3>
+
+                    <p>
+                        Des signatures sans frontières
+                    </p>
+
+                    <button class="category-link">
+                        Découvrir
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SHOP
+===================================================== -->
+
+<section class="shop section" id="boutique">
+
+    <div class="container">
+
+        <div class="shop-header">
+
+            <div class="section-heading reveal">
+
+                <span class="eyebrow">
+                    LA BOUTIQUE
+                </span>
+
+                <h2>
+                    Nos fragrances
+                    <br>
+                    essentielles.
+                </h2>
+
+            </div>
+
+
+            <div class="shop-tools">
+
+                <div class="shop-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="productSearch"
+                        placeholder="Rechercher un parfum..."
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-filter="Tous">
+                Tous
+            </button>
+
+            <button class="filter-btn" data-filter="Femme">
+                Femme
+            </button>
+
+            <button class="filter-btn" data-filter="Homme">
+                Homme
+            </button>
+
+            <button class="filter-btn" data-filter="Unisexe">
+                Unisexe
+            </button>
+
+            <button class="filter-btn" data-filter="Nouveauté">
+                Nouveautés
+            </button>
+
+        </div>
+
+
+        <div class="products-grid" id="productsGrid"></div>
+
+
+        <div class="empty-products" id="emptyProducts">
+
+            <i class="fa-solid fa-wind"></i>
+
+            <h3>Aucun parfum trouvé</h3>
+
+            <p>
+                Essayez une autre recherche.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     OLFACTORY
+===================================================== -->
+
+<section class="olfactory section">
+
+    <div class="container">
+
+        <div class="olfactory-grid">
+
+            <div class="olfactory-content reveal">
+
+                <span class="eyebrow">
+                    L'UNIVERS ÉLYSÉE
+                </span>
+
+                <h2>
+                    Une fragrance
+                    <br>
+                    pour chaque
+                    <br>
+                    personnalité.
+                </h2>
+
+                <p>
+                    Parce qu'un parfum ne se choisit pas seulement
+                    pour son odeur. Il se choisit pour ce qu'il
+                    raconte de vous.
+                </p>
+
+                <a href="#boutique" class="text-link">
+                    Explorer les parfums
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="notes-grid reveal">
+
+                <div class="note-card">
+
+                    <span>01</span>
+
+                    <div class="note-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+
+                    <h3>Floral</h3>
+
+                    <p>
+                        Délicat & lumineux
+                    </p>
+
+                </div>
+
+
+                <div class="note-card">
+
+                    <span>02</span>
+
+                    <div class="note-icon">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+
+                    <h3>Boisé</h3>
+
+                    <p>
+                        Profond & élégant
+                    </p>
+
+                </div>
+
+
+                <div class="note-card">
+
+                    <span>03</span>
+
+                    <div class="note-icon">
+                        <i class="fa-solid fa-lemon"></i>
+                    </div>
+
+                    <h3>Frais</h3>
+
+                    <p>
+                        Léger & énergique
+                    </p>
+
+                </div>
+
+
+                <div class="note-card">
+
+                    <span>04</span>
+
+                    <div class="note-icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+
+                    <h3>Oriental</h3>
+
+                    <p>
+                        Chaud & sensuel
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EDITORIAL
+===================================================== -->
+
+<section class="editorial section" id="apropos">
+
+    <div class="container editorial-grid">
+
+        <div class="editorial-image reveal">
+
+            <img
+                src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1200&q=90"
+                alt="Parfum élégant"
+            >
+
+        </div>
+
+
+        <div class="editorial-content reveal">
+
+            <span class="eyebrow">
+                À PROPOS D'ÉLYSÉE
+            </span>
+
+            <h2>
+                Parce que votre
+                <br>
+                parfum compte.
+            </h2>
+
+            <p>
+                Nous sélectionnons des fragrances qui associent
+                caractère, élégance et émotion.
+            </p>
+
+            <p>
+                Notre objectif est simple : vous aider à trouver
+                un parfum qui vous ressemble et qui accompagne
+                naturellement vos moments importants.
+            </p>
+
+
+            <div class="editorial-signature">
+
+                <span>
+                    ÉLYSÉE
+                </span>
+
+                <small>
+                    L'art de la fragrance.
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BENEFITS
+===================================================== -->
+
+<section class="benefits section-small">
+
+    <div class="container benefits-grid">
+
+        <div class="benefit reveal">
+
+            <div class="benefit-number">
+                01
+            </div>
+
+            <div>
+                <h3>Fragrances sélectionnées</h3>
+
+                <p>
+                    Des parfums choisis avec attention.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit reveal">
+
+            <div class="benefit-number">
+                02
+            </div>
+
+            <div>
+                <h3>Livraison au Maroc</h3>
+
+                <p>
+                    Expédition partout au Maroc.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit reveal">
+
+            <div class="benefit-number">
+                03
+            </div>
+
+            <div>
+                <h3>Commande WhatsApp</h3>
+
+                <p>
+                    Simple, rapide et sans paiement en ligne.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit reveal">
+
+            <div class="benefit-number">
+                04
+            </div>
+
+            <div>
+                <h3>Conseils personnalisés</h3>
+
+                <p>
+                    Besoin d'aide ? Écrivez-nous.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TESTIMONIALS
+===================================================== -->
+
+<section class="testimonials section">
+
+    <div class="container">
+
+        <div class="section-heading center reveal">
+
+            <span class="eyebrow">
+                ILS NOUS FONT CONFIANCE
+            </span>
+
+            <h2>
+                Des parfums qui
+                <br>
+                laissent une impression.
+            </h2>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+
+            <article class="testimonial reveal">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "J'ai enfin trouvé un parfum qui correspond
+                    vraiment à ma personnalité. Très belle tenue
+                    et une odeur magnifique."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <span>S</span>
+
+                    <div>
+                        <strong>Sarah</strong>
+                        <small>Cliente</small>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial reveal">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "La commande via WhatsApp est super pratique.
+                    Réponse rapide et livraison sans problème."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <span>Y</span>
+
+                    <div>
+                        <strong>Yassine</strong>
+                        <small>Client</small>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial reveal">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Très belle sélection. J'adore le côté élégant
+                    et moderne de la boutique."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <span>N</span>
+
+                    <div>
+                        <strong>Nour</strong>
+                        <small>Cliente</small>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta-section">
+
+    <div class="container cta-inner reveal">
+
+        <span class="eyebrow">
+            PRÊT À TROUVER VOTRE SIGNATURE ?
+        </span>
+
+        <h2>
+            Votre prochaine fragrance
+            <br>
+            vous attend.
+        </h2>
+
+        <p>
+            Découvrez notre collection et commandez
+            directement via WhatsApp.
+        </p>
+
+        <a href="#boutique" class="btn btn-white">
+            Voir la boutique
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-grid">
+
+            <div class="contact-intro reveal">
+
+                <span class="eyebrow">
+                    CONTACT
+                </span>
+
+                <h2>
+                    Une question ?
+                    <br>
+                    Écrivez-nous.
+                </h2>
+
+                <p>
+                    Besoin d'aide pour choisir une fragrance,
+                    une senteur ou un parfum pour offrir ?
+                    Notre équipe est disponible sur WhatsApp.
+                </p>
+
+                <a
+                    href="#"
+                    class="whatsapp-contact"
+                    id="contactWhatsApp"
+                    target="_blank"
+                >
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <span>
+                        Contactez-nous sur WhatsApp
+                        <small>Réponse rapide</small>
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-info reveal">
+
+                <div class="contact-item">
+
+                    <span>WHATSAPP</span>
+
+                    <strong id="displayWhatsapp">
+                        +212 6 XX XX XX XX
+                    </strong>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>INSTAGRAM</span>
+
+                    <strong>
+                        @elysee.parfums
+                    </strong>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>HORAIRES</span>
+
+                    <strong>
+                        Lun — Sam · 09h — 19h
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#accueil" class="logo footer-logo">
+                    ÉLYSÉE
+                    <span>PARFUMS</span>
+                </a>
+
+                <p>
+                    Le parfum, autrement.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>BOUTIQUE</h4>
+
+                <a href="#boutique">Tous les parfums</a>
+
+                <a href="#categories">Femme</a>
+
+                <a href="#categories">Homme</a>
+
+                <a href="#categories">Unisexe</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>INFORMATIONS</h4>
+
+                <a href="#apropos">À propos</a>
+
+                <a href="#contact">Contact</a>
+
+                <a href="#contact">Livraison</a>
+
+                <a href="#contact">Conseils</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>SUIVEZ-NOUS</h4>
+
+                <a href="#" target="_blank">
+                    Instagram
+                </a>
+
+                <a
+                    href="#"
+                    id="footerWhatsApp"
+                    target="_blank"
+                >
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 ÉLYSÉE PARFUMS. Tous droits réservés.
+            </span>
+
+            <span>
+                Commandes via WhatsApp
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     CART DRAWER
+===================================================== -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <div>
+
+            <span>VOTRE SÉLECTION</span>
+
+            <h2>
+                Mon panier
+            </h2>
+
+        </div>
+
+        <button id="closeCart">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="cart-empty">
+
+            <i class="fa-solid fa-bag-shopping"></i>
+
+            <h3>
+                Votre panier est vide
+            </h3>
+
+            <p>
+                Ajoutez quelques parfums pour commencer votre commande.
+            </p>
+
+            <button class="btn btn-dark" id="discoverProducts">
+                Découvrir les produits
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong>
+                <span id="cartTotal">0</span> DH
+            </strong>
+
+        </div>
+
+        <button
+            class="whatsapp-order"
+            id="whatsappOrder"
+        >
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Commander sur WhatsApp
+
+        </button>
+
+        <small>
+            Aucun paiement en ligne.
+            Votre commande sera confirmée directement
+            avec nous sur WhatsApp.
+        </small>
+
+    </div>
+
+</aside>
+
+
+<!-- =====================================================
+     PRODUCT MODAL
+===================================================== -->
+
+<div class="product-modal" id="productModal">
+
+    <div class="modal-backdrop"></div>
+
+    <div class="modal-box">
+
+        <button class="modal-close" id="closeModal">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div class="modal-image">
+
+            <img id="modalImage" src="" alt="">
+
+        </div>
+
+
+        <div class="modal-content">
+
+            <span id="modalCategory">
+                PARFUM
+            </span>
+
+            <h2 id="modalName">
+                Produit
+            </h2>
+
+            <strong class="modal-price">
+                <span id="modalPrice">0</span> DH
+            </strong>
+
+            <p id="modalDescription">
+                Description du produit.
+            </p>
+
+
+            <div class="modal-option">
+
+                <label>
+                    FORMAT
+                </label>
+
+                <div class="size-options">
+
+                    <button class="size-option active">
+                        50 ML
+                    </button>
+
+                    <button class="size-option">
+                        100 ML
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="modal-quantity">
+
+                <label>
+                    QUANTITÉ
+                </label>
+
+                <div class="quantity-control">
+
+                    <button id="minusQuantity">
+                        −
+                    </button>
+
+                    <span id="modalQuantity">
+                        1
+                    </span>
+
+                    <button id="plusQuantity">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <button class="modal-add" id="modalAdd">
+
+                Ajouter au panier
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div class="toast" id="toast">
+
+    <i class="fa-solid fa-check"></i>
+
+    <div>
+
+        <strong>
+            Produit ajouté
+        </strong>
+
+        <span>
+            Votre parfum a été ajouté au panier.
+        </span>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
